@@ -33,8 +33,8 @@ Your client-side code must attach the [ID token](https://firebase.google.com/doc
 
 {{< file "js" "frontend-app.js" >}}
 ```javascript
-import firebase from 'firebase';
-const auth = firebase.auth();
+import { getAuth } from 'firebase/auth';
+const auth = getAuth();
 const url = 'https://your-cloud-function-url';
 
 
