@@ -26,9 +26,10 @@ The easiest way to order by creation time is to use a server timestamp. This tel
 ```js
 
 // Create Data
-const timestamp = firebase.firestore.FieldValue.serverTimestamp;
+import { serverTimestamp } from 'firebase/firestore';
 
-db.collection('things').add({ ...myData, createdAt: timestamp() })
+const db = getFirestore();
+db.collection('things').add({ ...myData, createdAt: serverTimestamp() })
 
 
 // Query
