@@ -4,7 +4,7 @@
     "description": "Awesome content for developers",
     "main": "index.ts",
     "type": "module",
-    "scripts": {
+  "scripts": {
       "dev": "vite",
       "hugo": "hugo server --forceSyncStatic --port 6969",
       "start": "concurrently \"vite build --watch\" \"npm run hugo\"",
@@ -12,8 +12,12 @@
       "build": "vite build && hugo",
       "preview": "vite preview",
       "check": "svelte-check --tsconfig ./tsconfig.json",
+      "lint": "eslint --ext .ts,.js,.svelte .",
+      "lint:fix": "eslint --ext .ts,.js,.svelte . --fix",
       "algolia": "atomic-algolia",
-      "deploy": "firebase deploy --debug --token \"$FIREBASE_TOKEN\" --only hosting"
+      "deploy": "firebase deploy --debug --token \"$FIREBASE_TOKEN\" --only hosting",
+      "build:prod": "npm run check && npm run build && npm run algolia",
+      "clean": "rm -rf dist public resources .hugo_build.lock"
     },
     "keywords": [],
     "author": "Jeff Delaney",
