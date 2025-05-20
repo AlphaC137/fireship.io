@@ -1,17 +1,18 @@
 ---
-title: Hello Deno
-lastmod: 2020-05-04T14:43:11-07:00
+title: Deno Quickstart Guide
+lastmod: 2025-05-20T14:43:11-07:00
 publishdate: 2020-05-04T14:43:11-07:00
 author: Jeff Delaney
-draft: true
-description: Get started with Deno 1.0. A new JavaScript runtime. 
+draft: false
+description: Get started with Deno - A modern JavaScript runtime built with security in mind.
 tags: 
     - deno
     - node.js
     - typescript
+    - javascript
 
-youtube: 
-github: 
+youtube: zFf_fcn0cI0
+github: fireship-io/deno-examples
 # disable_toc: true
 # disable_qna: true
 
