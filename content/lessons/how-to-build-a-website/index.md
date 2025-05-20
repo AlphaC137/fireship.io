@@ -1,9 +1,9 @@
 ---
-title: How to Build a Website - In 2019
-lastmod: 2019-05-25T06:43:09-07:00
+title: How to Build a Website - In 2025
+lastmod: 2025-05-19T06:43:09-07:00
 publishdate: 2019-05-25T06:43:09-07:00
 author: Jeff Delaney
-draft: true
+draft: false
 description: Advanced techniques and ideas for developers building web applications 
 tags: 
     - javascript
