@@ -1,22 +1,42 @@
-## Fireship
+# Fireship.io
 
-The [Fireship PRO](https://fireship.io) course platform frontend built with Svelte, Tailwind, Hugo, Firebase, & Flamethrower. 
+The [Fireship PRO](https://fireship.io) course platform frontend built with:
+
+- Svelte
+- Tailwind CSS
+- Hugo (Static Site Generator)
+- Firebase
+- Flamethrower (Router)
 
 ## Contributing
 
-All static content is managed with Hugo in the `content` dir. You can easily fix typos by modifying the markdown directly in GitHub. 
+All static content is managed with Hugo in the `content` directory. You can easily fix typos by modifying the markdown directly in GitHub.
+
+### Prerequisites
+
+1. Install [Hugo Extended](https://gohugo.io/getting-started/installing/) version `0.101.0` or greater
+2. Node.js 16+ and npm
+3. Firebase CLI (optional, for deployment)
 
 ### How to Run it
 
-First, install [Hugo Extended](https://gohugo.io/getting-started/installing/) ver `0.101.0` or greater. 
-
-```
-git clone <this-repo>
+```bash
+git clone https://github.com/fireship-io/fireship.io
+cd fireship.io
 npm install
 npm start
 ```
 
-Check it on on `http://localhost:6969/`.
+Visit `http://localhost:6969/` in your browser.
+
+### Development Scripts
+
+- `npm start` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run check` - Run Svelte type checking
+- `npm run lint` - Lint the codebase
+- `npm run lint:fix` - Automatically fix linting issues
+- `npm run deploy` - Deploy to Firebase hosting
 
 
 ## Developing Components 
