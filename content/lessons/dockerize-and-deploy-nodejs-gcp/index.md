@@ -1,16 +1,18 @@
 ---
-title: Docker Basics
-lastmod: 2020-08-16T11:42:47-07:00
+title: Dockerize and Deploy Node.js to Google Cloud
+lastmod: 2025-05-20T11:42:47-07:00
 publishdate: 2020-08-16T11:42:47-07:00
 author: Jeff Delaney
-draft: true
-description: Learn 
+draft: false
+description: Learn how to containerize a Node.js application with Docker and deploy it to Google Cloud Run
 tags: 
     - node
     - docker
+    - google-cloud
+    - devops
 
-youtube: 
-github: 
+youtube: Qs5xGj85Aek
+github: fireship-io/docker-nodejs-basic-demo
 # disable_toc: true
 # disable_qna: true
 
